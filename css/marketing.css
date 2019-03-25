@@ -402,7 +402,7 @@ footer {
     height: 32.5%;
     width: 100%;
     min-height: 160px;
-    top: -80px;
+    /*top: -80px;*/
     position: relative;
     }
 

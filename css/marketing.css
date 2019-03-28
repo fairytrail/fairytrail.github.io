@@ -234,25 +234,32 @@ footer {
   .marketing input, .marketing button, .marketing div, .marketing form, .marketing img {
     box-sizing: border-box; }
   .marketing p.lead {
-    font-size: 20px;
+    font-size: 1.49em;
     padding: 0 18px;
     color: #546075; }
   .marketing h1 {
-    font-size: 2.68em;
+    font-size: 2.78em;
     margin-bottom: 30px; }
     @media screen and (min-width: 320px) and (max-width: 650px) {
       .marketing h1 {
         font-size: 2.1em;
         margin: 0px 20px 30px;
-         } }
+         } 
+
+      h2.tagline, h2.takeoff, h2.cta-out, h2.dwb {
+        font-size: 2.1em;
+        }
+
+       }
   .marketing h2 {
     font-size: 1.9em;
     color: #3b4246; 
     width: 90%;
     margin: auto;
     }
-    h2.tagline, h2.takeoff, h2.cta-out {
-    font-size:40px;
+    h2.tagline, h2.takeoff, h2.cta-out, h2.dwb {
+    /*font-size:38px;*/
+    font-size: 2.58em;
     }
 
     @media screen and (min-width: 320px) and (max-width: 650px) {

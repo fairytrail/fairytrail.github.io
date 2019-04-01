@@ -259,7 +259,7 @@ footer {
     }
     h2.tagline, h2.takeoff, h2.cta-out, h2.dwb {
     /*font-size:38px;*/
-    font-size: 2.58em;
+    font-size: 2em;
     }
 
     @media screen and (min-width: 320px) and (max-width: 650px) {

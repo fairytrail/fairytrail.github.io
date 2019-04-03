@@ -262,9 +262,12 @@ footer {
     font-size: 2em;
     }
 
+
+
     @media screen and (min-width: 320px) and (max-width: 650px) {
       .marketing h2 {
         width: 90%;
+        font-size: 1.8em;
          } 
       .marketing .feature-list h2 {
         width: 100%;
@@ -715,6 +718,8 @@ footer {
     }
 
     @media screen and (min-width: 320px) and (max-width: 650px) {
+      /* mostly mobile css */
+
       .marketing .features {
         padding-top: 100px; 
         padding-bottom: 118px;
@@ -740,6 +745,9 @@ footer {
       background-color: #fdfdfd;
       border-top: 1px solid #E1E6EF;
       }
+      .marketing .three-points h2.dwb {
+      margin-top: 60px;
+      }
     }
   .marketing .video {
     width: 600px;
@@ -760,6 +768,7 @@ footer {
     .marketing .three-points h2 {
           margin: 10px auto 30px;
      }
+ 
 
     .marketing .three-points .first-image, .marketing .three-points .second-image, .marketing .three-points .third-image {
       height: 246px;
@@ -1228,4 +1237,9 @@ header div:hover .carousel {
 
 .marketing.terms body  {
   padding: 100px 0;
+}
+
+h2.cta-out {
+  margin: 90px auto;
+  text-align: center;
 }

@@ -394,7 +394,7 @@ footer {
     animation-iteration-count: infinite;
 }
 
-      @media screen and (min-width: 320px) and (max-width: 650px) {
+  @media screen and (min-width: 320px) and (max-width: 650px) {
         .marketing .logo-container .logo {
           width: 120px;
           height: 40px;
@@ -409,11 +409,11 @@ footer {
     width: 100%;
     min-height: 170px; }
 
-    @media screen and (min-width: 320px) and (max-width: 1400px) {
+    @media screen and (max-width: 1300px) and (min-width: 320px) {
         .marketing .logo-container, .marketing .splash-foot {
     height: 29.5%;
     width: 100%;
-    min-height: 190px; }
+    min-height: 200px; }
 
     }
 

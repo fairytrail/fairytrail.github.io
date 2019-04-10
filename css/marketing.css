@@ -409,12 +409,12 @@ footer {
     width: 100%;
     min-height: 170px; }
 
-    @media screen and (max-width: 1300px) and (min-width: 320px) {
+    @media screen and (max-width: 1200px) and (min-width: 320px) {
     
     .marketing .logo-container, .marketing .splash-foot {
     height: 29.5%;
     width: 100%;
-    min-height: 200px; }
+    min-height: 180px; }
 
     }
 
@@ -531,7 +531,8 @@ footer {
       bottom: -150px; }
   .marketing .main-cta {
     width: 600px;
-    margin: 126px auto 0; }
+    margin: 24px auto 0;
+     }
     @media screen and (min-width: 320px) and (max-width: 650px) {
       .marketing .main-cta {
         width: 90%; } }
@@ -688,7 +689,7 @@ footer {
         .marketing .splash-content .main-center {
           height: auto;
           padding: auto 10px;
-          margin-top: 96px;
+          margin-top: 76px;
          } 
         }
 /*  .marketing .features, .marketing .feature-checks {
@@ -867,6 +868,7 @@ footer {
 */
      }
     h2.takeoff {
+      color:#209AF5;
       text-align: center;
       margin-bottom: 40px;
     }
@@ -1069,7 +1071,7 @@ footer {
 
         .mobile-apps .apps .app-item {
       display: inline-block;
-      margin-top: 35px;
+      margin-top: 10px;
       }
 
       .mobile-apps .app-link {
@@ -1079,12 +1081,12 @@ footer {
       }
 
       .mobile-apps .app-ios {
-        background: url("/img-assets/mobile-install-apple.png") transparent no-repeat;
+        background: url("../img-assets/mobile-install-apple.png") transparent no-repeat;
         margin-right: 20px;
       }
 
       .mobile-apps .app-android {
-        background: url("/img-assets/mobile-install-google.png") transparent no-repeat;
+        background: url("../img-assets/mobile-install-google.png") transparent no-repeat;
       }
 
 

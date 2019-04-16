@@ -788,6 +788,13 @@ footer {
       background: url("../images/1.2.jpg") no-repeat center center/246px;
       margin: 10px auto 30px; }
 
+    .marketing .three-points .fourth-image, .marketing .three-points .fifth-image,.marketing .three-points .sixth-image {
+      height: 493px;
+      width: 246px;
+      border-radius: 3px;
+      background: url("../images/1.2.jpg") no-repeat center center/246px;
+      margin: 10px auto 30px; }
+
 
     .marketing .three-points .first-image {
       background: url("../img-assets/723053.svg") no-repeat center center/146px; }
@@ -796,13 +803,13 @@ footer {
     .marketing .three-points .third-image {
       background: url("../img-assets/807572.svg") no-repeat center center/146px; }
 
-/*    .marketing .three-points .fourth-image {
-      background: url("../img-assets/one.svg") no-repeat center center/136px; }
+    .marketing .three-points .fourth-image {
+      background: url("../img-assets/screen1.png") no-repeat top center/246px; }
     .marketing .three-points .fifth-image {
-      background: url("../img-assets/two.svg") no-repeat center center/136px; }
+      background: url("../img-assets/screen2.png") no-repeat top center/246px; }
     .marketing .three-points .sixth-image {
-      background: url("../img-assets/three.svg") no-repeat center center/136px; }
-*/
+      background: url("../img-assets/screen3.png") no-repeat top center/246px; }
+
 
   .marketing .third {
     float: left;
@@ -830,7 +837,7 @@ footer {
         display: block;
         /*margin-right: 7.42297%;*/
         width: 100%;
-        margin-bottom: 40px; }
+        margin-bottom: 50px; }
         .marketing .third:last-child {
           margin-right: 0; }
         .marketing .third p {

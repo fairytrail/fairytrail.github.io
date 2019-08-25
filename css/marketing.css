@@ -712,6 +712,13 @@ footer {
       transform: translate(-50%, -50%);
     }
 
+
+
+    section.feature-checks.paragraph-text.tour-section {
+    padding-bottom: 285px;
+    }
+
+
   .foot-cta {
     /*background: url(../img-assets/flyover.jpg) no-repeat top;*/
     /*background: url(../img-assets/takeoff2.jpg) no-repeat 0 286px;*/
@@ -752,7 +759,7 @@ footer {
       padding-bottom: 40px; 
       }
       .marketing .faq {
-       padding-top: 80px;
+      padding-top: 80px;
       padding-bottom: 80px; 
       }
       .marketing section.paragraph-text.bottom-part {
@@ -763,6 +770,10 @@ footer {
       .marketing .three-points h2.dwb {
       margin-top: 60px;
       }
+      section.feature-checks.paragraph-text.tour-section {
+      padding-bottom: 45px;
+      }
+
     }
   .marketing .video {
     width: 600px;

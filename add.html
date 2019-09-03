@@ -36,24 +36,6 @@
       gtag('config', 'UA-125034487-1');
     </script>
 
-    <script data-require="jquery@*" data-semver="3.2.1" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <script>
-      
-      function addToNewsletter() {
-        $.post({
-          url: 'https://us-central1-fairytrail-world.cloudfunctions.net/api/user/newsletter',
-          data: {
-            email: $('#email').val()
-          },
-          success: function(data) {
-            alert(data.success);
-          },
-          error: function(data) {
-            alert(data.error);
-          }
-        })
-      }
-    </script>
 
     <link rel="icon" href="https://www.fairytrail.app/img-assets/favicon-32x32.png" sizes="32x32" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -157,6 +139,26 @@
 
 
 
+    </script>
+
+    
+    <script data-require="jquery@*" data-semver="3.2.1" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script>
+      
+      function addToNewsletter() {
+        $.post({
+          url: 'https://us-central1-fairytrail-world.cloudfunctions.net/api/user/newsletter',
+          data: {
+            email: $('#email').val()
+          },
+          success: function(data) {
+            alert(data.success);
+          },
+          error: function(data) {
+            alert(data.error);
+          }
+        })
+      }
     </script>
 
     <!-- Hotjar Tracking Code for https://www.Fairytrail.app/ -->

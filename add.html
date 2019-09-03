@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class="marketing">
+   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>Fairytrail | Newsletter </title>
+    <meta name="description" content="Experience Airbnb & Viator group trips with someone you like. Adventures start at just $99. Ready to explore new people, places, and cultures?" />
+    <meta name="keywords" content="https://www.fairytrail.app/img-assets/social.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="fairytrail.app" />
+    <meta name="copyright" content="fairytrail" />
+    <meta name="application-name" content="fairytrail" />
+    <meta property="og:type"   content="website" /> 
+    <meta property="og:title" content="Fairytrail | Newsletter" />
+    <meta property="og:locale" content="en_US" />  
+    <meta property="fb:app_id" content="1890019561088820" />
+    <meta property="og:site_name" content="fairytrail.app"/>
+    <meta property="og:image" content="https://www.fairytrail.app/img-assets/social.png" />
+    <meta property="og:url" content="https://www.fairytrail.app/" />
+    <meta property="og:description" content="Experience Airbnb & Viator group trips with someone you like. Adventures start at just $99. Ready to explore new people, places, and cultures?" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Fairytrail | Newsletter" />
+    <meta name="twitter:description" content="Experience Airbnb & Viator group trips with someone you like. Adventures start at just $99. Ready to explore new people, places, and cultures?" />
+    <meta name="twitter:image" content="https://www.fairytrail.app/img-assets/social.png" />  
+    <meta name="p:domain_verify" content="605d90922e3b42d2767d7592e8407bdf"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125034487-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125034487-1');
+    </script>
+
+    <script data-require="jquery@*" data-semver="3.2.1" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script>
+      
+      function addToNewsletter() {
+        $.post({
+          url: 'https://us-central1-fairytrail-world.cloudfunctions.net/api/user/newsletter',
+          data: {
+            email: $('#email').val()
+          },
+          success: function(data) {
+            alert(data.success);
+          },
+          error: function(data) {
+            alert(data.error);
+          }
+        })
+      }
+    </script>
+
+    <link rel="icon" href="https://www.fairytrail.app/img-assets/favicon-32x32.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+
+    <link rel="stylesheet" href="css/marketing.css">
+
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+<body>
+  <!-- fb -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=214267021956002&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+   <section class="paragraph-text bottom-part">
+       <div class="logo-pages">
+      <a href="/"><h1 class="logo hide-text">Fairytrail</h1></a>
+    </div>
+    <div class="icon-container">
+      <h1 class="icon3 hide-text">Penguins</h1>
+    </div>
+    <div class="outer-container">
+      <h2 style="margin: 20px auto;text-align: center;">
+      Welcome to our tribe.</h2>
+      <p>Join 1,391 explorers getting our stories and updates! We will never spam you. Unsubscribe at any time. 
+      </p>
+    </div>
+    <div>      
+    <form class="main-cta" action="javascript:addToNewsletter()" >
+      <center>
+      <input class="emailForm" type="email" placeholder="wendy@nationalgeographers.com" id="email"/></center>
+      <button class="btn-main-cta" type="submit">Subscribe</button>
+    </form>
+  </div>
+  </section>
+
+
+  
+  <footer>
+<div class="footer-links">
+  <ul>
+     <li><a href="https://blog.fairytrail.app/">Blog</a></li>
+<!--     <li><a href="#app-download" class="a-blue get-app" style="font-weight: bold; color: #0088e3;">Get App</a></li>
+       <li><a href="mailto:team@fairytrail.app">Blog</a></li>
+ -->
+    <li><a href="mailto:team@fairytrail.app">Contact</a></li>
+    <li><a href="https://www.instagram.com/fairytrailapp/">#adventure</a></li>
+    <li><a href="/jobs">Jobs</a></li>
+    <li class="copyright">Photos by <a href="https://www.instagram.com/skipwithgrace/">Grace Chen</a></li>
+    <li><a href="https://www.fairytrail.app/terms">Terms & Privacy Policy</a></li>    
+    <li class="copyright">&copy; LittleQuest 1408 Post St. San Francisco CA 94109</li>
+    <li class="copyright">Fairytrail is operated by LittleQuest LLC. Tours are sold by Airbnb, Viator/TripAdvisor, and InteleTravel.com</li>
+    <li class="copyright"><div class="fb-like" data-href="https://www.facebook.com/Fairytrailapp" data-width="80px" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div></li>
+<!--     <li>Made with <span style="margin: 0px !important;display: inline !important;height: auto;width: 50px; font-size: 18px; vertical-align: middle; line-height: 1.5;">❤️</span> in San Francisco</li> -->
+
+  </ul>
+</div>
+</footer>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/modernizr.custom.min.js"></script>
+    <script type="text/javascript" src="js/navigate.js"></script>
+
+
+    <script>
+    // Top bar removed for now.
+      // $(document).scroll(function() { // show/hides top bar on scroll
+      //  var y = $(this).scrollTop();
+      //  if (y > 550) {
+      //    $(".top-bar").css("top", "0");
+      //  } else {
+      //    $(".top-bar").css("top", "-70px");
+      //  }
+      // });
+
+      // // Locks scrolling on first load (at the top of the page), but releases scrolling once 'tell me more' is clicked (or page refreshed anywhere except the top of the page).
+      // $(document).ready(function(){
+
+      //     $('.get-app').click(function(){
+      //     $('html, body').animate({
+      //       scrollTop: $( $(this).attr('href') ).offset().top
+      //     }, 500);
+      //     return false;
+      //   });
+
+      // });
+
+
+
+    </script>
+
+    <!-- Hotjar Tracking Code for https://www.Fairytrail.app/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:266329,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+</body>
+</html>

@@ -141,7 +141,8 @@ h2.lead {
   font-family: "open sans", "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   text-align: center;
   margin-top: 10px;
-  color: #354054;
+  color: #2c3647;
+  /*color: #354054;*/
   -webkit-font-smoothing: antialiased; }
 p.center {
   text-align: center; }

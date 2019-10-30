@@ -408,7 +408,9 @@ footer {
   .marketing .logo-container, .marketing .splash-foot {
     height: 15.5%;
     width: 100%;
-    min-height: 170px; }
+    min-height: 170px;
+      z-index: -1;
+    }
 
     @media screen and (max-width: 1200px) and (min-width: 320px) {
     

@@ -408,20 +408,20 @@ footer {
   .marketing .logo-container, .marketing .splash-foot {
     height: 15.5%;
     width: 100%;
-    min-height: 170px;
+    min-height: 150px;
     z-index: -1;
     }
 
     @media screen and (max-width: 1200px) and (min-width: 320px) {
     
     .marketing .logo-container, .marketing .splash-foot {
-    height: 29.5%;
+    /*height: 9.5%;*/
     width: 100%;
-    min-height: 180px; }
+    min-height: 150px; }
 
 
     .arrow-container .icon {
-          top: 270px;
+          top: 170px;
         }
     }
 

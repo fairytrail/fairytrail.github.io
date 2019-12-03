@@ -1297,37 +1297,4 @@ h2.cta-out {
 }
 
 
-.stick{
-  width: 100%;
-  margin-top:-10px;
-  padding-bottom:20px;
-  display: block;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  border: 1px solid whitesmoke;
-  background: white;
-  // rgba(23,119,175,.2)
-}
-
-div.menu {
-  display:relative;
-  padding-top:30px;
-  text-align: center;
-}
-.menu ul {
-  display:inline;
-  margin: 0px;
-  padding: 0px;
-}
-.menu li {
-  display:inline;
-  list-style: none;
-  margin: 10px 15px;
-  white-space:nowrap;
-  hyphens : none;
-}
-.menu a{
-  color: #E66F6F;
-}
 

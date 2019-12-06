@@ -1304,12 +1304,12 @@ h2.cta-out {
 }
 
 .img1 {
-          width: 10%;
+          width: 12%;
          }  
 
 @media screen and (min-width: 651px) and (max-width: 800px) {
   .img1 {
-    width: 15%;
+    width: 16%;
   }
 }
 
@@ -1318,6 +1318,3 @@ h2.cta-out {
           width: 20%;
          }  
  }
-
-
-

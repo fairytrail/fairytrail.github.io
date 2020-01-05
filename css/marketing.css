@@ -760,9 +760,16 @@ footer {
     background-color: #fdfdfd;
     }
 
+  .mobile-image{
+    max-width: 255px;
+    }
+
     @media screen and (min-width: 320px) and (max-width: 650px) {
       /* mostly mobile css */
 
+      .mobile-image{
+        width: 30%;
+      }
       .marketing .features {
         padding-top: 100px; 
         padding-bottom: 118px;

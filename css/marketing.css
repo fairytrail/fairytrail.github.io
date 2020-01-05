@@ -164,6 +164,10 @@ strong {
   color: #111111;
    }
 
+.underline {
+  text-decoration: underline;
+}
+
 body {
   font-family: "gotham", "open sans", "Tahoma", "Verdana", "Arial", sans-serif;
   line-height: 1.5; 

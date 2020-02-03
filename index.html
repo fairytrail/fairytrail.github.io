@@ -307,6 +307,24 @@ settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.creat
     </div>
   </section> -->
 
+   <section class="paragraph-text bottom-part">
+    <div class="icon-container">
+      <h1 class="icon3 hide-text">Penguins</h1>
+    </div>
+    <div class="outer-container">
+      <h2 style="margin: 20px auto;text-align: center;">
+      Psst... there's a secret society.</h2>
+      <p>Join 4,791 wholesome people passionate about exploration on our newsletter! We will never spam you. Unsubscribe at any time. 
+      </p>
+    </div>
+    <div>      
+    <form class="main-cta" action="javascript:addToNewsletter()" >
+      <center>
+      <input class="emailForm" type="email" placeholder="wendy@nationalgeographers.com" id="email"/></center>
+      <button class="btn-main-cta" type="submit">Subscribe</button>
+    </form>
+  </div>
+  </section>
 
   <footer>
 <div class="footer-links">
@@ -333,10 +351,29 @@ settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.creat
 
 
 
-    <!-- SCRIPTS -->
+    <!-- POST LOAD SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.min.js"></script>
     <script type="text/javascript" src="js/navigate.js"></script>
+
+    <script data-require="jquery@*" data-semver="3.2.1" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script>
+      
+      function addToNewsletter() {
+        $.post({
+          url: 'https://us-central1-fairytrail-world.cloudfunctions.net/api/user/newsletter',
+          data: {
+            email: $('#email').val()
+          },
+          success: function(data) {
+            alert(data.success);
+          },
+          error: function(data) {
+            alert(data.error);
+          }
+        })
+      }
+    </script>
 
 
     <script>
@@ -361,8 +398,6 @@ settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.creat
       //   });
 
       // });
-
-
 
     </script>
 

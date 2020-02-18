@@ -1309,6 +1309,11 @@ h2.cta-out {
   text-align: center;
 }
 
+h2.recent-booking {
+  margin: 60px auto 90px;
+  text-align: center;
+}
+
 
 .fa-color {
   color: #E66F6F;

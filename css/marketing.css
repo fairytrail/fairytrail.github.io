@@ -828,7 +828,7 @@ footer {
      }
  
 
-    .marketing .three-points .first-image, .marketing .three-points .second-image, .marketing .three-points .third-image {
+    .marketing .three-points .first-image, .marketing .three-points .second-image, .marketing .three-points .third-image, .taige-image, .video-image {
       height: 246px;
       width: 246px;
       border-radius: 3px;
@@ -856,6 +856,13 @@ footer {
       background: url("../img-assets/screen2.png") no-repeat top center/246px; }
     .marketing .three-points .sixth-image {
       background: url("../img-assets/screen3.png") no-repeat top center/246px; }
+
+    .taige-image {
+      background: url("../img-assets/taige1.jpg") no-repeat center center/246px;
+      border-radius: 900px;
+       }
+    .video-image {
+      background: url("../img-assets/786796.svg") no-repeat center center/146px; }
 
 
   .marketing .third {

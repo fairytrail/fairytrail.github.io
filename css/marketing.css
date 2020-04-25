@@ -724,8 +724,8 @@ footer {
 /*  .marketing .features, .marketing .feature-checks {
     background: rgba(0, 135, 226, 0.05); }*/
   .marketing .features, .marketing .three-points, .marketing .feature-checks, .marketing .faq, .marketing .paragraph-text, .marketing .foot-cta {
-    padding-top: 160px;
-    padding-bottom: 160px; }
+    padding-top: 200px;
+    padding-bottom: 200px; }
 
     .break-content h2, .break-content2 h2 {
       text-align: center;
@@ -740,7 +740,7 @@ footer {
 
 
     section.feature-checks.paragraph-text.tour-section {
-    padding-bottom: 285px;
+    padding-bottom: 200px;
     }
 
 
@@ -1083,9 +1083,20 @@ footer {
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
-    margin-left: 42.64902%; }
+    margin-left: 42.64902%; 
+  }
+
+  .marketing .feature-list2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
     .marketing .feature-list:last-child {
-      margin-right: 0; }
+      margin-right: 0; 
+    }
     .marketing .feature-list ul {
       padding-top: 20px; }
     @media screen and (min-width: 320px) and (max-width: 650px) {
@@ -1095,6 +1106,15 @@ footer {
         margin-right: 7.42297%;
         width: 100%;
         margin-left: 0%; }
+      .marketing .feature-list2 {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        margin-left: 0%; 
+        }
+
+
         .marketing .feature-list:last-child {
           margin-right: 0; }
         .marketing .feature-list h2 {
@@ -1329,6 +1349,21 @@ h2.recent-booking {
 .img1 {
           width: 12%;
          }  
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 @media screen and (min-width: 651px) and (max-width: 800px) {
   .img1 {
